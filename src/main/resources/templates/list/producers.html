@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список Производителей</title>
+</head>
+<body>
+
+<h1>Список Производителей</h1>
+<div th:each="producer : ${producers}">
+    <a th:href="@{/templates/list/producers/{producer}(producer=${producer})}" th:text="${producer}"></a>
+</div>
+
+</body>
+</html>

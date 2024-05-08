@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список Часов Из Категории</title>
+</head>
+<body>
+
+<h1>Список Часов Из Категории</h1>
+<div th:each="watch : ${watches}">
+    <a th:text="${watch.getModel() + ' ' + watch.getProducer() + ' ' + watch.getCategory()}"></a>
+</div>
+
+</body>
+</html>
