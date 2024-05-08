@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список Моделей</title>
+</head>
+<body>
+
+<h1>Список Моделей</h1>
+<div th:each="model : ${models}">
+    <a th:text="${model}"></a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Список Категорий</title>
+</head>
+<body>
+
+<h1>Список Категорий</h1>
+<div th:each="category : ${categories}">
+    <a th:href="@{/templates/list/categories/{category}(category=${category})}" th:text="${category}"></a>
+</div>
+
+</body>
+</html>
