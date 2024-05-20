@@ -1,0 +1,44 @@
+body {
+    padding: 20px;
+    background-image: url(/images/wood-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+h1.text-center {
+    color: #AF8F6F;
+}
+
+.btn-brown {
+    width: 100%;
+    margin-bottom: 10px;
+    color: #F8F4E1;
+    background-color: #AF8F6F;
+    border-color: #AF8F6F;
+}
+
+.btn-brown:hover {
+    background-color: #74512D;
+    border: 1px solid #74512D;
+}

@@ -18,6 +18,11 @@ public class WatchController {
         this.watchService = watchService;
     }
 
+    @GetMapping("")
+    public String getIndex() {
+        return "index";
+    }
+
     // Список моделей
     @GetMapping("/models")
     public String getModels(Model model) {
